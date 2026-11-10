@@ -12,7 +12,7 @@ public class Driver {
     public static WebDriver getDriver() {
         // Если драйвер еще не создан или был закрыт — создаем новый
         if (driver == null) {
-            // 1. Пусть сам скачает и настроит chromedriver
+            // 1. Cам скачает и настроит chromedriver
             WebDriverManager.chromedriver().setup();
 
             // 2. Настройки браузера
